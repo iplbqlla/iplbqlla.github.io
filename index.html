@@ -129,6 +129,12 @@ ul {
     margin-top:10px;
 }
 
+.table{border-collapse:collapse!important;
+width:100%;
+color:black;
+}
+
+
 /*media query 750px or less*/
 @media (max-width:750px), (orientation: portrait) { 
 html {padding:0;margin:0 auto;}
@@ -136,15 +142,13 @@ html {padding:0;margin:0 auto;}
 li{ 
     font-size:1.2em;
 }
-a {
-    font-size 1.2em;
-}
 
 html, body {
   width: 95%;
   text-align: center;
 
 }
+.table {font-size:1.2em;}
 }
 </style>
 
@@ -163,13 +167,182 @@ html, body {
     <h2>Statistics Site</h2>
 </div>
 <hr class="hr">
+
+
+         <section class="main-section" id="standings">
+            <div class="box">
+          <header>Standings</header>
+      </div>
+
+
+      <p class="p">
+            Group 1
+        </p><br>
+    <div class="code">
+        <table class="table">
+                <thead>
+                        <tr>
+                          <th>Team</th>
+                          <th>GP</th>
+                          <th>W</th>
+                          <th>L</th>
+                          <th>T</th>
+                          <th>GB</th>
+                          <th>Win %</th>
+                       </tr>
+ 
+                      </thead>
+                      <tdbody>
+                            <tr>
+                                    <td>Wilmer Becerra</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>-</td>
+                                    <td>1.000</td>
+                                </tr>
+                                <tr>
+                                        <td>Yasser Mendez</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0.5</td>
+                                        <td>.750</td>
+                                    </tr>
+                                    <tr>
+                                            <td>Alexis Quiroz</td>
+                                            <td>2</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                            <td>1</td>
+                                            <td>.500</td>
+                                        </tr>
+                                        <tr>
+                                                <td>Barranquilla</td>
+                                                <td>2</td>
+                                                <td>1</td>
+                                                <td>1</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                                <td>.500</td>
+                                            </tr>
+                                            <tr>
+                                                    <td>IPL 1</td>
+                                                    <td>2</td>
+                                                    <td>0</td>
+                                                    <td>1</td>
+                                                    <td>1</td>
+                                                    <td>1.5</td>
+                                                    <td>.250</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>IPL 2</td>
+                                                        <td>2</td>
+                                                        <td>0</td>
+                                                        <td>2</td>
+                                                        <td>0</td>
+                                                        <td>2</td>
+                                                        <td>.000</td>
+                                                    </tr>
+                      </tdbody>
+            
+
+        </table>
+        </div><br>
+            
+            <p class="p">
+                Group 2
+            </p><br>
+           <div class="code">
+            <table class="table">
+                    <thead>
+                            <tr>
+                              <th>Team</th>
+                              <th>GP</th>
+                              <th>W</th>
+                              <th>L</th>
+                              <th>T</th>
+                              <th>GB</th>
+                              <th>Win %</th>
+                           </tr>
+                          </thead>
+            <tbody>
+                    <tr>
+                            <td>Francisco Ortiz</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>-</td>
+                            <td>1.000</td>
+                        </tr>
+                        <tr>
+                                <td>IPL 3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>-</td>
+                                <td>1.000</td>
+                            </tr>
+                            <tr>
+                                    <td>Miranda</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>-</td>
+                                    <td>1.000</td>
+                                </tr>
+                                <tr>
+                                        <td>Dennys Suarez</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>.000</td>
+                                    </tr>
+                                    <tr>
+                                            <td>IPL 4</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                            <td>1</td>
+                                            <td>.000</td>
+                                        </tr>
+                                        <tr>
+                                                <td>VPA</td>
+                                                <td>1</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                                <td>.000</td>
+                                            </tr>
+            </tbody>
+            
+        </table>
+        </div><br>
+      </section> 
+    
+              <hr>
+
+
+
+
+
 <div class="hline">
     <hr>
 </div>
 <main id="main-doc">   
   <section class="main-section" id="PlayerStats">
       <div class="box">
-    <header>Player Statistics</header>
+        <header>Player Statistics</header>
 </div>
 
 <p class="p">
@@ -292,6 +465,7 @@ html, body {
       </section>
           <hr>
 
+ 
 
 </main>
 <footer id="footer">
@@ -305,4 +479,8 @@ html, body {
 
 </footer>
 </body>
+<!--jquery-->
+<script src="jquery.js"></script>
+<!--js/-->
+<script src="bs.js"></script>
 </html>
